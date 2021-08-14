@@ -2,7 +2,7 @@ let cities = ['Warsaw', 'Berlin', 'Paris', 'London', 'New York', 'Tokio', 'Mosco
 
 let ol = document.createElement("ol");
 document.body.appendChild(ol);
-let li;
+
 cities.forEach(function (el) {
     let li = document.createElement("li");//tworzymy elementy li
     console.log(li)
