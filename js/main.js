@@ -9,6 +9,5 @@ cities.forEach(function (el) {
     li.innerText = el;//dodajemy text do li
     li.className = el;//dodajemy klase do li
 
-    
+    ol.appendChild(li)//za każdą iteracją pętli dodajmy kolejny li do ol
 })
-ol.appendChild(li)//za każdą iteracją pętli dodajmy kolejny li do ol
