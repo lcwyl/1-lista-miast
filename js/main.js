@@ -7,7 +7,7 @@ cities.forEach(function (el) {
     let li = document.createElement("li");//tworzymy elementy li
     console.log(li)
     li.innerText = el;//dodajemy text do li
-    li.className = city;//dodajemy klase do li
+    li.className = "city";//dodajemy klase do li
 
     ol.appendChild(li)//za każdą iteracją pętli dodajmy kolejny li do ol
 })
